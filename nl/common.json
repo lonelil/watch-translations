@@ -1,0 +1,34 @@
+[
+    {
+        "identifier": "movies",
+        "source_string": "Movies",
+        "translation": "Movies",
+        "context": "movies",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "tv-shows",
+        "source_string": "TV Shows",
+        "translation": "TV Shows",
+        "context": "tv-shows",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "anime",
+        "source_string": "Anime",
+        "translation": "Anime",
+        "context": "anime",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "live-tv",
+        "source_string": "Live TV",
+        "translation": "Live TV",
+        "context": "live-tv",
+        "labels": null,
+        "max_length": null
+    }
+]
