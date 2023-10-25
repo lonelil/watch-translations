@@ -1,0 +1,50 @@
+[
+    {
+        "identifier": "trending",
+        "source_string": "Trending",
+        "translation": "Trending",
+        "context": "trending",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "popular-movies",
+        "source_string": "Popular Movies",
+        "translation": "Popular Movies",
+        "context": "popular-movies",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "popular-tv-show",
+        "source_string": "Popular TV Shows",
+        "translation": "Popular TV Shows",
+        "context": "popular-tv-show",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "airing-today-tv-shows",
+        "source_string": "Airing Today TV Shows",
+        "translation": "Airing Today TV Shows",
+        "context": "airing-today-tv-shows",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "top-rated-movies",
+        "source_string": "Top Rated Movies",
+        "translation": "Top Rated Movies",
+        "context": "top-rated-movies",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "top-rated-tv-shows",
+        "source_string": "Top Rated TV Shows",
+        "translation": "Top Rated TV Shows",
+        "context": "top-rated-tv-shows",
+        "labels": null,
+        "max_length": null
+    }
+]
