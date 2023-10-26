@@ -1,0 +1,25 @@
+name: Download Translations
+
+on:
+  schedule:
+  - cron: "0 2 * * 1-5"
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        
+      - name: crowdin action
+        uses: crowdin/github-action@v1
+        with:
+         download_translations: true
+         export_only_approved: true
+         push_translations: true
+         commit_message: 'New Crowdin translations by GitHub Action'
+         download_translations_args: '--all'
+         token: ${{ secrets.CROWDIN_PERSONAL_TOKEN }} # A Personal Access Token (see https://crowdin.com/settings#api-key)
+         project_id: ${{ secrets.CROWDIN_PROJECT_ID }} # The numeric project ID. Visit the Tools > API section in your Crowdin project
